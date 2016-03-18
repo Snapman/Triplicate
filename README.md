@@ -27,7 +27,7 @@ So how do we make a cat bark like a dog?  How do we create a data store which ha
 
 Then you create functions, stored procedures, and indexes that let you access these concepts quickly and efficiently.
 
-Now, the relational database does what it is good at: store specific types of data in its database so that they can be quickly and efficiently stored, queried, and retrieved.  And another important thing happens: you shift the enforcement of the database's structure to the application.  You will still have to do the work of enforcing the database's schema and strucuture; you just won't do it in the database anymore.  Now, it is in the code.
+Now, the relational database does what it is good at: handling specific types of data so that they can be quickly and efficiently stored, queried, and retrieved.  And another important thing happens: you shift the enforcement of the database's structure to the application.  You will still have to do the work of enforcing the database's schema and strucuture; you just won't do it in the database anymore.  Now, it is in the code.
 
 This can be both a curse and a blessing.  On the one hand, you have a triplestore that is so universal that any application can use it.  And it is backed by mature, robust technology that has been relied upon for three decades.  On the other hand, all those relationships you would normally have the database enforce will now be in the application code.  It's up to you to decide whether the hassle is worth it.  I am aiming this project towards those who do not have a choice of underlying data storage technology and are most likely obligated to use a relational database such as Oracle or SQL Server.
 
