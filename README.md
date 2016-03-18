@@ -1,5 +1,5 @@
 # Triplicate
-Database schema, functions, and stored procedures that allow relational databases to act as triplestores.  For now, this project allows PostgreSQL to act as a triplestore, but in the future, it should be able to allow other relational databases to act as triplestores.
+Triplicate is a database schema, a set of functions, and a set of stored procedures that allow relational databases to act as triplestores.  Currnetly this project allows PostgreSQL to act as a triplestore, but in the future, it should be able to allow other relational databases to act as triplestores.
 
 It's a crazy notion, I know.  Using a relational database as a triplestore.  Why do that when you can use OrientDB or Neo4J?  Well, not everyone is fortunate enough to have an employer that will let you use any data storage technology you want.  Most IT shops are entrenched in relational databases (and their insane license and support contracts) because they are proven, reliable forms of data storage technology with tons of support.  Relational databases give IT administrators lots of warm fuzzies.  The problem lies in trying to get these guys who are swimming in warm fuzzies to try the cold for a bit.
 
